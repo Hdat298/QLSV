@@ -152,7 +152,46 @@ namespace QLSV
                 MessageBox.Show("Vui lòng nhập đầy đủ thông tin!");
         }
 
-        
+        private void btnDel_Click(object sender, EventArgs e)
+        {
+            if(lvSV.SelectedItems.Count > 0)
+            {
+                if(MessageBox.Show("Bạn có muốn xóa!", "Thông báo",MessageBoxButtons.YesNo,MessageBoxIcon.Question) == DialogResult.Yes)
+                {
+                    setNull();
+                    lvSV.Items.RemoveAt(lvSV.SelectedIndices[0]);
+                }
+            }
+        }
+
+        private void lvSV_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (lvSV.SelectedItems.Count > 0)
+            {
+                txtMS.Text = lvSV.SelectedItems[0].SubItems[0].Text;
+                txtName.Text = lvSV.SelectedItems[0].SubItems[1].Text;
+                if (lvSV.SelectedItems[0].SubItems[2].Text == "Nữ")
+                    rdoNu.Checked = true;
+                else
+                    rdoNam.Checked = true;
+                dtpNgaySInh.Text = lvSV.SelectedItems[0].SubItems[3].Text;
+                txtScore.Text = lvSV.SelectedItems[0].SubItems[4].Text;
+                cbxNganh.Text = lvSV.SelectedItems[0].SubItems[5].Text;
+            }
+        }
+
+        private void txtScore_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if(!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && (e.KeyChar !='.'))
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 
 }

@@ -31,19 +31,19 @@ namespace QLSV
         {
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.txtMS = new System.Windows.Forms.TextBox();
-            this.txtName = new System.Windows.Forms.TextBox();
-            this.txtScore = new System.Windows.Forms.TextBox();
-            this.rdoNam = new System.Windows.Forms.RadioButton();
-            this.rdoNu = new System.Windows.Forms.RadioButton();
-            this.dtpNgaySInh = new System.Windows.Forms.DateTimePicker();
             this.cbxNganh = new System.Windows.Forms.ComboBox();
+            this.dtpNgaySInh = new System.Windows.Forms.DateTimePicker();
+            this.rdoNu = new System.Windows.Forms.RadioButton();
+            this.rdoNam = new System.Windows.Forms.RadioButton();
+            this.txtScore = new System.Windows.Forms.TextBox();
+            this.txtName = new System.Windows.Forms.TextBox();
+            this.txtMS = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.lvSV = new System.Windows.Forms.ListView();
             this.clmMS = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.clmName = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -95,110 +95,6 @@ namespace QLSV
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông tin sinh viên";
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(17, 38);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(50, 16);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "MSSV";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(17, 74);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(59, 16);
-            this.label3.TabIndex = 0;
-            this.label3.Text = "Họ Tên";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(17, 107);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(70, 16);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "Giới Tính";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(17, 141);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(79, 16);
-            this.label5.TabIndex = 0;
-            this.label5.Text = "Ngày Sinh";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(17, 176);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(67, 16);
-            this.label6.TabIndex = 0;
-            this.label6.Text = "Điểm TB";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(17, 211);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(108, 16);
-            this.label7.TabIndex = 0;
-            this.label7.Text = "Chuyên Ngành";
-            // 
-            // txtMS
-            // 
-            this.txtMS.Location = new System.Drawing.Point(128, 32);
-            this.txtMS.Name = "txtMS";
-            this.txtMS.Size = new System.Drawing.Size(163, 22);
-            this.txtMS.TabIndex = 1;
-            // 
-            // txtName
-            // 
-            this.txtName.Location = new System.Drawing.Point(128, 68);
-            this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(163, 22);
-            this.txtName.TabIndex = 2;
-            // 
-            // txtScore
-            // 
-            this.txtScore.Location = new System.Drawing.Point(128, 170);
-            this.txtScore.Name = "txtScore";
-            this.txtScore.Size = new System.Drawing.Size(76, 22);
-            this.txtScore.TabIndex = 6;
-            // 
-            // rdoNam
-            // 
-            this.rdoNam.AutoSize = true;
-            this.rdoNam.Location = new System.Drawing.Point(128, 105);
-            this.rdoNam.Name = "rdoNam";
-            this.rdoNam.Size = new System.Drawing.Size(58, 20);
-            this.rdoNam.TabIndex = 3;
-            this.rdoNam.TabStop = true;
-            this.rdoNam.Text = "Nam";
-            this.rdoNam.UseVisualStyleBackColor = true;
-            // 
-            // rdoNu
-            // 
-            this.rdoNu.AutoSize = true;
-            this.rdoNu.Location = new System.Drawing.Point(238, 105);
-            this.rdoNu.Name = "rdoNu";
-            this.rdoNu.Size = new System.Drawing.Size(45, 20);
-            this.rdoNu.TabIndex = 4;
-            this.rdoNu.TabStop = true;
-            this.rdoNu.Text = "Nữ";
-            this.rdoNu.UseVisualStyleBackColor = true;
-            // 
-            // dtpNgaySInh
-            // 
-            this.dtpNgaySInh.Location = new System.Drawing.Point(128, 136);
-            this.dtpNgaySInh.Name = "dtpNgaySInh";
-            this.dtpNgaySInh.Size = new System.Drawing.Size(200, 22);
-            this.dtpNgaySInh.TabIndex = 5;
-            // 
             // cbxNganh
             // 
             this.cbxNganh.FormattingEnabled = true;
@@ -214,6 +110,111 @@ namespace QLSV
             this.cbxNganh.Size = new System.Drawing.Size(181, 24);
             this.cbxNganh.TabIndex = 7;
             // 
+            // dtpNgaySInh
+            // 
+            this.dtpNgaySInh.Location = new System.Drawing.Point(128, 136);
+            this.dtpNgaySInh.Name = "dtpNgaySInh";
+            this.dtpNgaySInh.Size = new System.Drawing.Size(200, 22);
+            this.dtpNgaySInh.TabIndex = 5;
+            // 
+            // rdoNu
+            // 
+            this.rdoNu.AutoSize = true;
+            this.rdoNu.Location = new System.Drawing.Point(238, 105);
+            this.rdoNu.Name = "rdoNu";
+            this.rdoNu.Size = new System.Drawing.Size(45, 20);
+            this.rdoNu.TabIndex = 4;
+            this.rdoNu.TabStop = true;
+            this.rdoNu.Text = "Nữ";
+            this.rdoNu.UseVisualStyleBackColor = true;
+            // 
+            // rdoNam
+            // 
+            this.rdoNam.AutoSize = true;
+            this.rdoNam.Location = new System.Drawing.Point(128, 105);
+            this.rdoNam.Name = "rdoNam";
+            this.rdoNam.Size = new System.Drawing.Size(58, 20);
+            this.rdoNam.TabIndex = 3;
+            this.rdoNam.TabStop = true;
+            this.rdoNam.Text = "Nam";
+            this.rdoNam.UseVisualStyleBackColor = true;
+            // 
+            // txtScore
+            // 
+            this.txtScore.Location = new System.Drawing.Point(128, 170);
+            this.txtScore.Name = "txtScore";
+            this.txtScore.Size = new System.Drawing.Size(76, 22);
+            this.txtScore.TabIndex = 6;
+            this.txtScore.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtScore_KeyPress);
+            // 
+            // txtName
+            // 
+            this.txtName.Location = new System.Drawing.Point(128, 68);
+            this.txtName.Name = "txtName";
+            this.txtName.Size = new System.Drawing.Size(163, 22);
+            this.txtName.TabIndex = 2;
+            // 
+            // txtMS
+            // 
+            this.txtMS.Location = new System.Drawing.Point(128, 32);
+            this.txtMS.Name = "txtMS";
+            this.txtMS.Size = new System.Drawing.Size(163, 22);
+            this.txtMS.TabIndex = 1;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(17, 211);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(108, 16);
+            this.label7.TabIndex = 0;
+            this.label7.Text = "Chuyên Ngành";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(17, 176);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(67, 16);
+            this.label6.TabIndex = 0;
+            this.label6.Text = "Điểm TB";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(17, 141);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(79, 16);
+            this.label5.TabIndex = 0;
+            this.label5.Text = "Ngày Sinh";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(17, 107);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(70, 16);
+            this.label4.TabIndex = 0;
+            this.label4.Text = "Giới Tính";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(17, 74);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(59, 16);
+            this.label3.TabIndex = 0;
+            this.label3.Text = "Họ Tên";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(17, 38);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(50, 16);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "MSSV";
+            // 
             // lvSV
             // 
             this.lvSV.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
@@ -228,6 +229,7 @@ namespace QLSV
             this.lvSV.TabIndex = 2;
             this.lvSV.UseCompatibleStateImageBehavior = false;
             this.lvSV.View = System.Windows.Forms.View.Details;
+            this.lvSV.SelectedIndexChanged += new System.EventHandler(this.lvSV_SelectedIndexChanged);
             // 
             // clmMS
             // 
@@ -302,6 +304,7 @@ namespace QLSV
             this.btnDel.TabIndex = 5;
             this.btnDel.Text = "Xóa";
             this.btnDel.UseVisualStyleBackColor = true;
+            this.btnDel.Click += new System.EventHandler(this.btnDel_Click);
             // 
             // btnEdit
             // 
@@ -334,6 +337,7 @@ namespace QLSV
             this.btnClose.TabIndex = 5;
             this.btnClose.Text = "Thoát";
             this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // btnNoSave
             // 
