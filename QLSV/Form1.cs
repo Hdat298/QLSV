@@ -72,17 +72,7 @@ namespace QLSV
             return false;
         }
 
-        private int viTriTrung(string mssv)
-        {
-            for (int i = 0; i < lvSV.Items.Count; i++)
-            {
-                if (lvSV.Items[i].SubItems[0].ToString() == mssv)
-                {
-                    return i;
-                }
-            }
-            return -1;
-        }
+        
         private int countNam()
         {
             int n = lvSV.Items.Count;
@@ -150,6 +140,17 @@ namespace QLSV
             }
             else
                 MessageBox.Show("Vui lòng nhập đầy đủ thông tin!");
+        }
+        private int viTriTrung(string mssv)
+        {
+            for (int i = 0; i < lvSV.Items.Count; i++)
+            {
+                if (lvSV.Items[i].SubItems[0].Text == mssv)
+                {
+                    return i;
+                }
+            }
+            return -1;
         }
 
         private void btnDel_Click(object sender, EventArgs e)
